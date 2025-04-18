@@ -1,0 +1,149 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx} % for rule width
+\usepackage{changepage}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{} % 기본 헤더/푸터 초기화
+\fancyhead[L]{\small\textcolor{gray!70!black}{\textit{Seokyung Chang -- Curriculum Vitae}}}
+
+\fancyhead[R]{\textcolor{gray!70!black}{\small\thepage}} % 오른쪽 상단 페이지 번호
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=black
+}
+\definecolor{softblue}{RGB}{70,130,180} % lighter blue
+\titleformat{\section}{\color{softblue}\Large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+
+\newcommand{\sectionrule}{\vspace{-0.4em}\noindent\rule{\textwidth}{0.4pt}\\[0.3em]}
+
+\begin{document}
+
+%--------------------
+% HEADER
+%--------------------
+\noindent
+\begin{tabular*}{\textwidth}{@{}p{0.65\textwidth}@{\extracolsep{\fill}}r@{}}
+    {\LARGE\bfseries\textcolor{softblue}{Seokyung Chang}} \\[0.3em] & \\
+    Hanyang University \\
+\textcolor{gray!20!black}{\textit{Department of Automotive Engineering}} & \textbf{Phone:} +82-10-7497-6447 \\
+    \textcolor{gray!20!black}{\textit{222 Wangsimni-ro, Haengdang-dong, Seongdong-gu, Seoul}} & \textbf{Email:} \href{mailto:devtxa6@hanyang.ac.kr}{devtxa6@hanyang.ac.kr} \\
+\end{tabular*}
+
+%--------------------
+% PERSONAL INFO
+%--------------------
+\section*{Personal}\vspace{-1.0em}\sectionrule
+\begin{tabular}{@{}ll}
+    Gender: & Male \\
+    Date of Birth: & October 11, 2002 \\
+    Nationality: & Republic of Korea \\
+    Place of Birth: & Republic of Korea \\
+\end{tabular}
+
+\vspace{0.15cm}
+
+%--------------------
+% EDUCATION
+%--------------------
+\section*{Education}\vspace{-1.0em}\sectionrule
+\textbf{B.Sc. in Automotive Engineering} \hfill 2021--2026 \\
+\hspace*{2em}Hanyang University, Seoul, Korea \\
+\hspace*{2em}GPA: 4.46 / 4.50, Credits Earned: 124 \\
+
+\vspace{0.15cm}
+
+%--------------------
+% WORK EXPERIENCE
+%--------------------
+\section*{Work Experience}\vspace{-1.0em}\sectionrule
+\textbf{Research Officer for National Defense} \hfill Expected: 2026.06--2029.05 \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+Agency for Defense Development, scheduled to serve as commissioned officer. \\
+\end{adjustwidth}
+
+\noindent\textbf{F1Tenth Project} \hfill 2025.03--Present \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+Developing an autonomous race car for the F1Tenth Competition under the supervision of Prof. Kichun Jo, AI LAB, Hanyang University. \\
+\end{adjustwidth}
+
+
+\noindent\textbf{Militech Research Program} \hfill 2024.06--2024.12 \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+Authored a research paper titled ``Development of a Fault Diagnosis Method for Rotating Machinery Based on Time Series Data'' under the supervision of Prof. Yong-hwa Park, KAIST. \\
+\end{adjustwidth}
+
+\vspace{0.15cm}
+
+%--------------------
+% HONORS AND AWARDS
+%--------------------
+\section*{Honors and Awards}\vspace{-1.0em}\sectionrule
+\textbf{National Science \& Technology Scholarship} \hfill 2024--2025 \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+Full government scholarship \\
+\end{adjustwidth}
+
+\noindent\textbf{Departmental Scholarship} \hfill 2021--2023 \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+Full tuition scholarship by Hanyang University \\
+\end{adjustwidth}
+
+\noindent\textbf{Excellence Award} \textcolor{gray!50!black}{\$1,500} \hfill 2024 \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+5th Militech Challenge by Ministry of Science and ICT \\
+\end{adjustwidth}
+
+\noindent\textbf{National Champion} \textcolor{gray!50!black}{\$2,000} \hfill 2022 \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+3M Inspire Challenge 2022 by 3M Korea \\
+\end{adjustwidth}
+
+
+%--------------------
+% TECHNICAL SKILLS
+%--------------------
+\section*{Technical Skills}\vspace{-1.0em}\sectionrule
+\begin{tabular}{@{}ll}
+    Programming: & Python, C, MATLAB \\
+    Tools: & ROS, LaTeX, Git \\
+    Programs: & Simulink, COMSOL, Onshape \\
+    Libraries: & PyTorch, NumPy, SciML \\
+\end{tabular}
+
+\vspace{0.15cm}
+
+%--------------------
+% EXTRACURRICULAR
+%--------------------
+\section*{Extracurricular Activities}\vspace{-1.0em}\sectionrule
+\textbf{HYU Judo Club Member} \hfill 2022--Present \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+Participated in various competitions and received awards. \\
+\end{adjustwidth}
+
+\noindent\textbf{3rd Prize} \hfill 2021 \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+32nd National University Wrestling Championship, Freestyle 79kg \\
+\end{adjustwidth}
+
+\noindent\textbf{President} \hfill 2018-Present \\[-1.25em]
+\begin{adjustwidth}{2em}{0em}
+AlSSeulSinJap -- Encyclopedia of useless yet Fascinating knowledge club \\
+\end{adjustwidth}
+
+\vspace{1em}
+\noindent\textcolor{gray!70!black}{\small This CV is current as of April 19, 2025.}
+
+\end{document}
