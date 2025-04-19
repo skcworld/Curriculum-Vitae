@@ -2,4 +2,4 @@
 
 📄 [View CV (PDF)](Curriculum_Vitae_SeokyungChang.pdf)
 
-This repository contains the LaTeX source and compiled PDF of Seokyung Chang's academic curriculum vitae.
+ This CV is current as of April 19, 2025.
